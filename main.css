@@ -1,0 +1,11 @@
+body{
+text-align: center;
+background-image: url('pacman.png');
+font-family: arial;
+}
+head{
+    font-family: arial;
+}
+h3{
+    color:red;
+}

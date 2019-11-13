@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Anthony Pace - IE Digital Code Challenge 1 Pacman 2019">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <script src="index.js"></script>
+    <title>IE Digital Pacman Challenge</title>
+</head>
+
+
+<body>
+    <div class="container-wrapper">
+        <h1>Pacman Simulator</h1>
+        <div id="openingScreen">
+            <h3>Note: First choose X and Y position. Then choose direction in drop-down menu and then place </h3>
+            X Position<input type="text" class="coordinate" id="openingX"><br>
+            <br>
+            Y Position<input type="text" class="coordinate" id="openingY"><br>
+            <br>
+            Choose a position:
+            <select name="direction" id="openingdirection">
+                <option value="NORTH">North</option>
+                <option value="SOUTH">South</option>
+                <option value="EAST">East</option>
+                <option value="WEST">West</option>
+            </select><br>
+            <button class="start-btn" onclick="start()">Place</button>
+        </div>
+        <div id="gameScreen">
+            <button class="direction-btn" onclick="left()">Left</button><br>
+            <button class="direction-btn" onclick="right()">Right</button><br>
+            <button class="move-btn" onclick="move()">Move</button><br>
+            <button class="start-btn" onclick="restart()">Restart</button><br>
+        </div>
+        <h2>Position Location:</h2>
+        <p id="result">Where the position will be (x,y,direction)</p>
+    </div>
+</body>
+</html>
