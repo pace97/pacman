@@ -4,6 +4,8 @@
 
 # I've used Javascript and HTML to produce this pacman simulator alongside CSS to style the page
 
+# Just clone or download the folder and open up index.html to begin
+
 #Steps to the simulator
 
 #Step 1: First choose X and Y positions then choose direction in drop-down menu and then place 
